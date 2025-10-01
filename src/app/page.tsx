@@ -1,10 +1,12 @@
-import AudioVisulizer from "./components/AudioVisulizer";
+import AudioEditor from "./components/AudioEditor";
+import AudioTimeline from "./components/AudioTimeline";
+import HybridTimeline from "./components/Channel";
 
 export default function Home() {
   return (
     <div className="">
-      <h1>Audio-Editor</h1>  
-      <AudioVisulizer/>    
+      {/* <AudioEditor/> */}
+      <AudioTimeline/>
     </div>
   );
 }
